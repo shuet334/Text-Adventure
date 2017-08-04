@@ -132,6 +132,7 @@ void HighLight()
   if(mousePressed)
   {
     fill(255, 253, 60);
+    noStroke();
     ellipse( mouseX, mouseY, 30, 30);
   }
 }
